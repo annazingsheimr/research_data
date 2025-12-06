@@ -10,5 +10,7 @@ The Data folder contains six folders: aviation, electricity, hydrogen, maritime,
 The wind folder contains two code files and several input folders/files.
 
 Model 
+The Model folder contains two folder: Scenario 1 and Scenario 2. Each scenario folder contains the model python code file and an inputs folder, which itself contains code files (to further work the data from the Data folder into respective parameters) and inputs files (outputs of those code files) to be used in the model.
 
 Results
+The Results folder contains the following folders: Code for plots, figures, graphs; Scenario 1; Scenario 2. It also contains a map file, which can be used to produce a map of Iceland containing the zone boundaries specified in the research paper. The folder Code for plots, figures, graphs contains three code files which where used to produce the plots, figures, and graphs. The two scenario folder each hold two folders: Models results and Plots, figures, graphs. The results of the model (from the model python code under the Model folder) can be found in the Model results folder, while the outputs of the code files for the plots, etc. can be found under the Plots, figures, graphs folder for each respective scenario. 
